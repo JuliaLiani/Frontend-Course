@@ -1,0 +1,12 @@
+body::before {
+      display: block;
+      content: '';
+      height: 60px;
+}
+
+/* on medium screens we want to make input smaller*/
+@media all and (min-width: 768px) {
+      .news-input{
+            width: 50%;
+}
+}
